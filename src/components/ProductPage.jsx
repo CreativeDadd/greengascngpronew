@@ -1,9 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from'react-router-dom';
-import daughterStation from '../assets/images/daughterStation.jpeg';
-import CNGMobileStation from '../assets/images/CNGMobileStation.jpg';
-import cngKITimg from '../assets/images/cngKITimg.jpg';
+import cngHero3 from '../assets/images/cngHero3.jpg';
 import cngDieselKit from '../assets/images/cngDieselKit.jpg';
 import cngDieselGenset from '../assets/images/cngDieselGenset.jpg';
 import cngTricycleKit from '../assets/images/cngTricycleKit.jpeg';
@@ -28,7 +26,7 @@ const ProductPage = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }} 
               transition={{duration: 2}}
-              className="h-64 w-full object-cover" src={cngkitImg1} alt="Petrol CNG Conversion Kit" />
+              className="h-64 w-full object-cover" src={cngHero3} alt="Petrol CNG Conversion Kit" />
             </div>
             <div className="flex-1 bg-green-50 p-6 flex flex-col justify-between">
               <div className="flex-1">
@@ -82,7 +80,7 @@ Environmental Impact: CNG produces fewer emissions compared to petrol, contribut
           </div>
 
           {/* Product Card 4: Daughter Stations */}
-          <div className="flex flex-col bg-green-50 shadow-lg rounded-lg overflow-hidden">
+          {/*<div className="flex flex-col bg-green-50 shadow-lg rounded-lg overflow-hidden">
             <div className="flex-shrink-0">
               <img className="h-64 w-full object-cover" src={daughterStation} alt="Daughter Stations" />
             </div>
@@ -97,7 +95,7 @@ Environmental Impact: CNG produces fewer emissions compared to petrol, contribut
                 <a href="/products/daughter-stations" className="text-green-600 hover:text-green-700 font-semibold">Learn More</a>
               </div>
             </div>
-          </div>
+          </div>*/}
           {/* Product Card 4: CNG Tricycle Conversion Kit */}
           <div className="flex flex-col bg-green-50 shadow-lg rounded-lg overflow-hidden">
             <div className="flex-shrink-0">
@@ -116,7 +114,7 @@ Environmental Impact: CNG produces fewer emissions compared to petrol, contribut
             </div>
           </div>
           {/* Product Card 5: Mobile CNG Dispensing Stations */}
-          <div className="flex flex-col bg-green-50 shadow-lg rounded-lg overflow-hidden">
+           { /* <div className="flex flex-col bg-green-50 shadow-lg rounded-lg overflow-hidden">
             <div className="flex-shrink-0">
               <img className="h-64 w-full object-cover" src={CNGMobileStation} alt="Daughter Stations" />
             </div>
@@ -130,8 +128,8 @@ Environmental Impact: CNG produces fewer emissions compared to petrol, contribut
               <div className="mt-6">
                 <a href="/products/daughter-stations" className="text-green-600 hover:text-green-700 font-semibold">Learn More</a>
               </div>
-            </div>
-          </div>
+            </div> 
+          </div> */}
         </div>
       </div>
     </div>

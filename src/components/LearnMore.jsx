@@ -28,12 +28,12 @@ const LearnMore = () => {
                 </p><br />
                 <Link to="/roi" className='py-1 px-4 text-white bg-green-800 rounded-full mt-2 font-semibold shadow-sm'>Check Your ROI...</Link>
               </div>
-              <div className="bg-green-50 p-6 rounded-lg shadow-lg">
+              {/* <div className="bg-green-50 p-6 rounded-lg shadow-lg">
                 <h3 className="text-xl font-semibold text-green-800">CNG Fueling Stations</h3>
                 <p className="mt-2 text-gray-700">
                   Our network of CNG fueling stations is expanding rapidly, providing convenient refueling options for CNG-powered vehicles.
                 </p>
-              </div>
+              </div> */}
               <div className="bg-green-50 p-6 rounded-lg shadow-lg">
                 <h3 className="text-xl font-semibold text-green-800">Maintenance and Support</h3>
                 <p className="mt-2 text-gray-700">

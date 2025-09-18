@@ -90,7 +90,7 @@ function CNGCalculator() {
               value={cngPrice}
               onChange={(e) => setCngPrice(e.target.value)}
               className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
-              placeholder="230"
+              placeholder="380"
             />
           </div>
 
@@ -101,7 +101,7 @@ function CNGCalculator() {
               value={petrolPrice}
               onChange={(e) => setPetrolPrice(e.target.value)}
               className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
-              placeholder="910"
+              placeholder="860"
             />
           </div>
 
